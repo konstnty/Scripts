@@ -1,0 +1,3 @@
+#!/bin/bash
+
+apfs-fuse -o allow_other /dev/sdb /mnt
