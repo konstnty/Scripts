@@ -1,0 +1,13 @@
+#! /bin/bash
+output='/home/konst/Wall/screenshot/%Y-%m-%d-%T-screenshot.png'
+
+case "$1" in
+    "0") ;;
+    *) sleep "$1"s ;;
+esac
+
+case "$2" in
+    "select") scrot "$output" --select --line mode=edge || exit;;
+    "window") scrot "$output" --focused --border || exit ;;
+    *) scrot "$output" ;;
+esac
