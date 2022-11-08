@@ -1,0 +1,2 @@
+xrandr --output "LVDS-1" --primary --auto --output "VGA-1" --right-of "LVDS-1" --mode 640x480
+xwallpaper --output "VGA-1" --zoom /home/konst/Wall/anime/blame_blue.png --output "LVDS-1" --tile /home/konst/Wall/sky_gun.png

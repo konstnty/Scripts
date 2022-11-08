@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo /usr/lib/bluetooth/bluetoothd -n & disown
+doas /usr/lib/bluetooth/bluetoothd -n & disown
